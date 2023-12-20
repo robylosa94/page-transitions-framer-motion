@@ -1,0 +1,18 @@
+.root {
+  @apply p-10 min-h-screen;
+}
+
+.svg,
+.bg {
+  --h: calc(100vh + 600px);
+  @apply fixed h-[var(--h)] w-screen pointer-events-none left-0 top-0;
+}
+
+.bg {
+  @apply bg-black;
+  transition: opacity 0s linear 0.1s;
+}
+
+.route {
+  @apply absolute left-1/2 top-[40%] text-white text-5xl z-[3] -translate-x-1/2 text-center;
+}

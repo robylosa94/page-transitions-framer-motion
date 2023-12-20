@@ -1,0 +1,15 @@
+.root {
+  @apply p-10 min-h-screen;
+}
+
+.bg {
+  @apply fixed w-full h-screen bg-black z-[1] pointer-events-none top-0 left-0;
+}
+
+.cols {
+  @apply fixed w-screen h-screen flex left-0 top-0 pointer-events-none z-[2];
+}
+
+.col {
+  @apply relative h-full w-full bg-black;
+}

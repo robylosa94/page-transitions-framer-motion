@@ -1,0 +1,11 @@
+.root {
+  @apply bg-black;
+}
+
+.page {
+  @apply bg-white p-10 min-h-screen;
+}
+
+.slide {
+  @apply h-screen w-full fixed left-0 top-0 bg-white z-[1];
+}
